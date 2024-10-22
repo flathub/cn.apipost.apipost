@@ -114,9 +114,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=x64&version=8.1.4",
-                    "sha256": "f5d394a00e5ded23b9834b4322ff8e5381dc3643fb4a4f0a1c43ea2d44f28294",
-                    "size": 74828724
+                    "url": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=x64&version=8.1.5",
+                    "sha256": "3d277046d39fec1810b62054b62ed7715af8728ab5f6521db61eba8faca21c30",
+                    "size": 77520772
                 },
                 {
                     "type": "script",
