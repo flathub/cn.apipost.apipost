@@ -86,6 +86,20 @@
   </screenshots>
   <launchable type="desktop-id">cn.apipost.apipost.desktop</launchable>
   <releases>
+    <release version="8.1.5" date="2024-10-22">
+      <description>
+      <p xml:lang="zh-Hans">⚡优化 变量调整为云端值和本地值，云端值会在项目成员间同步，本地值仅支持本地调试使用，避免了变量值始终同步造成协作的混乱问题。</p>
+      <p xml:lang="zh-Hans">⚡优化 字段描述弹窗过窄导致体验不友好的问题</p>
+      <p xml:lang="zh-Hans">🐞修复 在接口列表选择部分接口导出，出现报错的问题</p>
+      <p xml:lang="zh-Hans">🐞修复 认证类型jwt 和asap无效的bug</p>
+      <p xml:lang="zh-Hans">🐞修复 使用AI生成注解后，点击同步到接口，无反应的问题 </p>
+      <p>⚡Optimization The variables are adjusted to cloud values and local values, the cloud values will be synchronized among the project members, and the local values only support local debugging, avoiding the confusion of collaboration caused by always synchronizing the variable values.</p>
+      <p>⚡Optimization The field description popup window is too narrow resulting in an unfriendly experience.</p>
+      <p>🐞Repair the problem of reporting error when selecting some interfaces to export in the interface list.</p>
+      <p>🐞Fix the bug that authentication types jwt and asap are invalid.</p>
+      <p>🐞Repair After using AI to generate annotations, clicking on Synchronize to Interface is unresponsive. </p>
+      </description>
+    </release>
     <release version="8.1.4" date="2024-10-17">
       <description>
         <p>first release for flatpak.</p>
