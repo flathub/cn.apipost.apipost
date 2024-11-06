@@ -115,8 +115,8 @@
                         "x86_64"
                     ],
                     "url": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=x64&version=8.1.6",
-                    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                    "size": 77520772
+                    "sha256": "cef79f756461dc0f1012982fa55541f79922050d9072fb6cd89dbe0a78b5b20e",
+                    "size": 1084709
                 },
                 {
                     "type": "script",
