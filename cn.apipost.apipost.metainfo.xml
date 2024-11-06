@@ -12,7 +12,7 @@
       <em>NOTE:</em> This wrapper is not verified by, affiliated with, or supported by apipost.cn.
     </p>
     <p xml:lang="zh-Hans">
-      <em>提示:</em> 本构建未经apipost.cn验证, 或得到apipost.cn的支持。这个一个个人构建版本。
+      <em>提示:</em> 本构建未经 apipost.cn 验证, 或得到 apipost.cn 的支持。这个一个个人构建版本。
     </p>
     <p>
       tips: Due to flatpak sandbox limitations, please do not check for upgrades within the
@@ -86,6 +86,32 @@
   </screenshots>
   <launchable type="desktop-id">cn.apipost.apipost.desktop</launchable>
   <releases>
+    <release version="8.1.6" date="2024-11-06">
+      <description>
+      <p xml:lang="zh-Hans">🔥新增 在响应区增加保存响应示例的按钮，允许将实时响应直接保存为响应示例。</p>
+      <p xml:lang="zh-Hans">🔥新增 支持将性能测试报告导出为HTML格式。</p>
+      <p xml:lang="zh-Hans">🔥新增 在目录中，用户可以直接将HTTP接口复制为cURL。</p>
+      <p xml:lang="zh-Hans">⚡优化 部分功能的用户体验。</p>
+      <p xml:lang="zh-Hans">🐞修复 导入项目时上传.har文件导致的错误。</p>
+      <p xml:lang="zh-Hans">🐞修复 自动化测试中功能测试错误将201、203等2XX响应码视为失败的问题。</p>
+      <p xml:lang="zh-Hans">🐞修复 删除正在使用的接口状态后，Markdown中显示状态错误的问题。</p>
+      <p xml:lang="zh-Hans">🐞修复 在部分场景中Mock服务调试未返回正确的期望结果的问题。</p>
+      <p xml:lang="zh-Hans">🐞修复 生成请求代码时部分转义错误的问题。</p>
+      <p xml:lang="zh-Hans">🐞修复 在自动化测试的事务控制器下的接口不执行问题。</p>
+      <p xml:lang="zh-Hans">🐞修复 编辑接口的认证信息并保存后，历史记录版本中未出现该条记录的问题。</p>
+      <p>🔥 Added Add button to save sample response in response area, allowing live response to be saved directly as sample response.</p>
+      <p>🔥 Added Support exporting performance test report to HTML format.</p>
+      <p>🔥 Added In the catalog, users can copy HTTP interface to cURL directly.</p>
+      <p>⚡ Optimize the user experience of some features.</p>
+      <p>🐞 Fix The error caused by uploading .har file when importing project.</p>
+      <p>🐞 Fix the problem that the functional test in automation test incorrectly treats 2XX response codes such as 201, 203, etc. as failures.</p>
+      <p>🐞 Fix the problem of displaying status error in Markdown after deleting the status of the interface in use.</p>
+      <p>🐞 Fix An issue where Mock service debugging did not return the correct expected result in some scenarios.</p>
+      <p>🐞 Fix Issue with incorrect partial escaping when generating request code.</p>
+      <p>🐞 Fix Interface non-execution issue under Transaction Controller for automated testing.</p>
+      <p>🐞 Fix Issue where after editing the authentication information of an interface and saving it, the entry did not appear in the history version.</p>
+      </description>
+    </release>
     <release version="8.1.5" date="2024-10-22">
       <description>
       <p xml:lang="zh-Hans">⚡优化 变量调整为云端值和本地值，云端值会在项目成员间同步，本地值仅支持本地调试使用，避免了变量值始终同步造成协作的混乱问题。</p>
