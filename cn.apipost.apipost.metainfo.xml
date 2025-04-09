@@ -86,6 +86,40 @@
   </screenshots>
   <launchable type="desktop-id">cn.apipost.apipost.desktop</launchable>
   <releases>
+    <release version="8.1.10" date="2025-04-09">
+      <description>
+      <p xml:lang="zh-Hans">⚡优化 WebSocket、Socket.IO 全面升级，优化交互，增强稳定性；Websocket使用文档 Socket.IO使用文档 🚨 8.1.10之前的版本将不再支持Websocket和Socket.IO的新建和更新，需升级至最新版本。升级后数据不会丢失~</p>
+      <p xml:lang="zh-Hans">⚡优化 接口文档：WebSocket、Socket.IO文档增加消息请求示例、响应示例的自定义展示，可读性更强；</p>
+      <p xml:lang="zh-Hans">⚡优化 历史版本对比功能体现对比预执行操作、后执行操作的变更记录；</p>
+      <p xml:lang="zh-Hans">⚡优化 对部分功能进行了细节优化，提升整体使用体验；</p>
+      <p xml:lang="zh-Hans">🐞修复 WebSocket 和 Socket.IO 在某些情况下无法成功连接的问题。.har文件导致的错误。</p>
+      <p xml:lang="zh-Hans">🐞修复 WebSocket 和 Socket.IO 请求 Header 设置无效的问题；</p>
+      <p xml:lang="zh-Hans">🐞修复 WebSocket 和 Socket.IO 无法使用变量（包括动态参数）的问题；</p>
+      <p xml:lang="zh-Hans">🐞修复 WebSocket 和 Socket.IO 无法使用代理和证书的问题；</p>
+      <p xml:lang="zh-Hans">🐞修复 部分值中含有转义符导致变量未能正确提取的问题；</p>
+      <p xml:lang="zh-Hans">🐞修复 http(s) 接口发送时，可能出现的 callback timed out 问题；</p>
+      <p xml:lang="zh-Hans">🐞修复 Cookie管理器中，带有path参数的cookie不生效的问题；</p>
+      <p xml:lang="zh-Hans">🐞修复 已知的脚本问题；</p>
+      <p xml:lang="zh-Hans">🐞修复 发送请求时，key 相同但大小写不同未按相同 key 处理的问题。修复后，将忽略 key 值的大小写，优先级顺序为接口 > 目录 > 全局，优先取接口参数值；</p>
+      <p xml:lang="zh-Hans">🐞修复 切换项目时默认服务前置 URL 未能正确切换的问题；</p>
+      <p xml:lang="zh-Hans">🐞修复 在 Mac 系统中，客户端双击顶栏未能正确放大至自适应大小的问题。</p>
+      <p>⚡ Optimize WebSocket, Socket.IO comprehensive upgrade, optimize interaction, and enhance stability; Websocket documentation Socket IO Usage Document 🚨  Versions before 8.1.10 will no longer support Websocket and Socket The creation and update of IO require upgrading to the latest version. Data will not be lost after upgrading~</p>
+      <p>⚡ Optimize interface documentation: Add custom display of message request examples and response examples to WebSocket and Socket.IO documentation for stronger readability;</p>
+      <p>⚡ Optimize the function of comparing historical versions to reflect the change records of pre execution and post execution operations;</p>
+      <p>⚡ Optimized some features in detail to enhance the overall user experience;</p>
+      <p>🐞 Fix WebSocket and Socket The issue of IO not being able to connect successfully in certain situations Error caused by har file.</p>
+      <p>🐞 Fix WebSocket and Socket The issue of invalid IO request header settings;</p>
+      <p>🐞 Fix WebSocket and Socket The issue of IO being unable to use variables (including dynamic parameters);</p>
+      <p>🐞 Fix WebSocket and Socket The issue of IO being unable to use proxies and certificates;</p>
+      <p>🐞 Fixed the issue where some values contained escape characters, causing variables to not be extracted correctly;</p>
+      <p>🐞 Fix the possible callback timed out issue when sending through the HTTP (s) interface;</p>
+      <p>🐞 Fix the issue in the Cookie Manager where cookies with the path parameter do not take effect;</p>
+      <p>🐞 Fix known script issues;</p>
+      <p>🐞 Fixed the issue where the same key was not processed with the same key when sending requests, but the case was different. After repair, the case of key values will be ignored, and the priority order will be interface>directory>global, with interface parameter values given priority;</p>
+      <p>🐞 Fixed the issue where the default service pre URL could not be switched correctly when switching projects;</p>
+      <p>🐞 Fixed an issue in Mac systems where the client's double-click on the top bar failed to properly enlarge to adaptive size.</p>
+      </description>
+    </release>
     <release version="8.1.6" date="2024-11-06">
       <description>
       <p xml:lang="zh-Hans">🔥新增 在响应区增加保存响应示例的按钮，允许将实时响应直接保存为响应示例。</p>
