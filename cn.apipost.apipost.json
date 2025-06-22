@@ -88,8 +88,12 @@
                 "install -Dm644 cn.apipost.apipost.desktop /app/share/applications/cn.apipost.apipost.desktop",
                 "install -Dm644 cn.apipost.apipost.svg /app/share/icons/hicolor/scalable/apps/cn.apipost.apipost.svg",
                 "install -Dm755 run.sh /app/bin/run.sh",
-                "install -Dm755 apply_extra ${FLATPAK_DEST}/bin/apply_extra"
-
+                "mkdir -p /app/apipost",
+                "unxz Apipost_linux_x64_8.1.16.xz",
+                "tar xvf Apipost_linux_x64_8.1.16 -C /app/apipost",
+                "ln -s /app/apipost/apipost_x64_8.1.16/apipost /app/bin/apipost",
+                "rm -rf Apipost_linux_x64_8.1.16.xz",
+                "rm -rf Apipost_linux_x64_8.1.16"
             ],
             "sources": [
                 {
@@ -109,23 +113,8 @@
                     "path": "run.sh"
                 },
                 {
-                    "type": "extra-data",
-                    "filename": "apipost_linux.tar.xz",
-                    "only-arches": [
-                        "x86_64"
-                    ],
-                    "url": "https://dlcdn.apipost.cn/dl/8.1.16/Apipost_linux_x64_8.1.16.xz?auth_key=1750519520-0-0-c9b43b681c69a3a9f2e489fd90c77dce",
-                    "sha256": "9c4f89d8de1f769db8e2df844cb1bc156d3d890a9078005165c847386276eae5",
-                    "size": 76841344
-                },
-                {
-                    "type": "script",
-                    "commands": [
-                        "tar xf apipost_linux.tar.xz",
-                        "rm -rf apipost_linux.tar.xz",
-                        "mv ./*/* ."
-                    ],
-                    "dest-filename": "apply_extra"
+                    "type": "file",
+                    "path": "Apipost_linux_x64_8.1.16.xz"
                 }
             ]
         }
