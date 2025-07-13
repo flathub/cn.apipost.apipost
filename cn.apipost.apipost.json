@@ -125,6 +125,22 @@
                     "size": 80731948
                 },
                 {
+                    "type": "extra-data",
+                    "filename": "apipost_linux.tar.xz",
+                    "only-arches": [
+                        "aarch64"
+                    ],
+                    "x-checker-data": {
+                        "type": "html",
+                        "url": "https://www.apipost.cn",
+                        "version-pattern": "client=LinuxXz&arch=arm64&version=([0-9.]+)",
+                        "url-template": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=arm64&version=${version}"
+                    },
+                    "url": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=arm64&version=8.1.19",
+                    "sha256": "fdc33077977525e659b3074b1765f03270388c9b88da4787b3c94b7c7446aa62",
+                    "size": 77962608
+                },
+                {
                     "type": "script",
                     "commands": [
                         "tar xf apipost_linux.tar.xz",
