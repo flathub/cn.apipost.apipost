@@ -86,6 +86,9 @@
   </screenshots>
   <launchable type="desktop-id">cn.apipost.apipost.desktop</launchable>
   <releases>
+    <release version="8.1.20" date="2025-08-01">
+      <description></description>
+    </release>
     <release version="8.1.10" date="2025-04-09">
       <description>
       <p xml:lang="zh-Hans">⚡优化 WebSocket、Socket.IO 全面升级，优化交互，增强稳定性；Websocket使用文档 Socket.IO使用文档 🚨 8.1.10之前的版本将不再支持Websocket和Socket.IO的新建和更新，需升级至最新版本。升级后数据不会丢失~</p>
