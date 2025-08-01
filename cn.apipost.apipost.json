@@ -122,7 +122,7 @@
                         "url-template": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=x64&version=${version}"
                     },
                     "url": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=x64&version=8.1.20",
-                    "sha256": "a56e8758c039b6bc40ae60f53e2f28c1328314c71a22f2de52eac044d21f6433",
+                    "sha256": "2762d7c082654437c5cd055641ffcd7149e45900d2724dc1ab9424a4b62098a4",
                     "size": 80741732
                 },
                 {
