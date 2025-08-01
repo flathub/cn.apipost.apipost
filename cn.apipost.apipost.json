@@ -6,7 +6,7 @@
     "command": "run.sh",
     "base": "org.electronjs.Electron2.BaseApp",
     "base-version": "24.08",
-    "separate-locales": false
+    "separate-locales": false,
     "finish-args": [
         "--share=network",
         "--share=ipc",
