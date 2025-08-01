@@ -6,6 +6,7 @@
     "command": "run.sh",
     "base": "org.electronjs.Electron2.BaseApp",
     "base-version": "24.08",
+    "separate-locales": false,
     "finish-args": [
         "--share=network",
         "--share=ipc",
@@ -114,9 +115,31 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://dlcdn.apipost.cn/dl/8.1.16/Apipost_linux_x64_8.1.16.xz?auth_key=1750519520-0-0-c9b43b681c69a3a9f2e489fd90c77dce",
-                    "sha256": "9c4f89d8de1f769db8e2df844cb1bc156d3d890a9078005165c847386276eae5",
-                    "size": 76841344
+                    "x-checker-data": {
+                        "type": "html",
+                        "url": "https://www.apipost.cn",
+                        "version-pattern": "client=LinuxXz&arch=x64&version=([0-9.]+)",
+                        "url-template": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=x64&version=${version}"
+                    },
+                    "url": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=x64&version=8.1.20",
+                    "sha256": "2762d7c082654437c5cd055641ffcd7149e45900d2724dc1ab9424a4b62098a4",
+                    "size": 80741732
+                },
+                {
+                    "type": "extra-data",
+                    "filename": "apipost_linux.tar.xz",
+                    "only-arches": [
+                        "aarch64"
+                    ],
+                    "x-checker-data": {
+                        "type": "html",
+                        "url": "https://www.apipost.cn",
+                        "version-pattern": "client=LinuxXz&arch=arm64&version=([0-9.]+)",
+                        "url-template": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=arm64&version=${version}"
+                    },
+                    "url": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=arm64&version=8.1.20",
+                    "sha256": "7a7c0613f35763165dbba9a5fdc199891b011c8505d6eb3c515ac3ba451bc4f0",
+                    "size": 77961588
                 },
                 {
                     "type": "script",
