@@ -5,7 +5,7 @@
   <summary>Apipost = Postman + Swagger + Mock + Jmeter, Backend, frontend, testing, and online collaboration with real-time content synchronization</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary=https://wiki.apipost.cn/docs/introduction</project_license>
-  <content_rating type="oars-1.0" />
+  <content_rating type="oars-1.0"/>
   <developer_name>apipost developers</developer_name>
   <description>
     <p>
@@ -86,8 +86,11 @@
   </screenshots>
   <launchable type="desktop-id">cn.apipost.apipost.desktop</launchable>
   <releases>
-    <release version="8.1.20" date="2025-08-01">
+    <release version="8.2.0" date="2025-08-06">
       <description></description>
+    </release>
+    <release version="8.1.20" date="2025-08-01">
+      <description/>
     </release>
     <release version="8.1.10" date="2025-04-09">
       <description>
@@ -103,7 +106,7 @@
       <p xml:lang="zh-Hans">🐞修复 http(s) 接口发送时，可能出现的 callback timed out 问题；</p>
       <p xml:lang="zh-Hans">🐞修复 Cookie管理器中，带有path参数的cookie不生效的问题；</p>
       <p xml:lang="zh-Hans">🐞修复 已知的脚本问题；</p>
-      <p xml:lang="zh-Hans">🐞修复 发送请求时，key 相同但大小写不同未按相同 key 处理的问题。修复后，将忽略 key 值的大小写，优先级顺序为接口 > 目录 > 全局，优先取接口参数值；</p>
+      <p xml:lang="zh-Hans">🐞修复 发送请求时，key 相同但大小写不同未按相同 key 处理的问题。修复后，将忽略 key 值的大小写，优先级顺序为接口 &gt; 目录 &gt; 全局，优先取接口参数值；</p>
       <p xml:lang="zh-Hans">🐞修复 切换项目时默认服务前置 URL 未能正确切换的问题；</p>
       <p xml:lang="zh-Hans">🐞修复 在 Mac 系统中，客户端双击顶栏未能正确放大至自适应大小的问题。</p>
       <p>⚡ Optimize WebSocket, Socket.IO comprehensive upgrade, optimize interaction, and enhance stability; Websocket documentation Socket IO Usage Document 🚨  Versions before 8.1.10 will no longer support Websocket and Socket The creation and update of IO require upgrading to the latest version. Data will not be lost after upgrading~</p>
@@ -118,7 +121,7 @@
       <p>🐞 Fix the possible callback timed out issue when sending through the HTTP (s) interface;</p>
       <p>🐞 Fix the issue in the Cookie Manager where cookies with the path parameter do not take effect;</p>
       <p>🐞 Fix known script issues;</p>
-      <p>🐞 Fixed the issue where the same key was not processed with the same key when sending requests, but the case was different. After repair, the case of key values will be ignored, and the priority order will be interface>directory>global, with interface parameter values given priority;</p>
+      <p>🐞 Fixed the issue where the same key was not processed with the same key when sending requests, but the case was different. After repair, the case of key values will be ignored, and the priority order will be interface&gt;directory&gt;global, with interface parameter values given priority;</p>
       <p>🐞 Fixed the issue where the default service pre URL could not be switched correctly when switching projects;</p>
       <p>🐞 Fixed an issue in Mac systems where the client's double-click on the top bar failed to properly enlarge to adaptive size.</p>
       </description>

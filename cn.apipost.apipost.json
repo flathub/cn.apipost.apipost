@@ -90,7 +90,6 @@
                 "install -Dm644 cn.apipost.apipost.svg /app/share/icons/hicolor/scalable/apps/cn.apipost.apipost.svg",
                 "install -Dm755 run.sh /app/bin/run.sh",
                 "install -Dm755 apply_extra ${FLATPAK_DEST}/bin/apply_extra"
-
             ],
             "sources": [
                 {
@@ -121,9 +120,9 @@
                         "version-pattern": "client=LinuxXz&arch=x64&version=([0-9.]+)",
                         "url-template": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=x64&version=${version}"
                     },
-                    "url": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=x64&version=8.1.20",
-                    "sha256": "2762d7c082654437c5cd055641ffcd7149e45900d2724dc1ab9424a4b62098a4",
-                    "size": 80741732
+                    "url": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=x64&version=8.2.0",
+                    "sha256": "a1dbdbe5f142b1f4b8c58bce9fa81131e6b62a957c13c11c041e031daa5e1144",
+                    "size": 80774920
                 },
                 {
                     "type": "extra-data",
@@ -137,9 +136,9 @@
                         "version-pattern": "client=LinuxXz&arch=arm64&version=([0-9.]+)",
                         "url-template": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=arm64&version=${version}"
                     },
-                    "url": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=arm64&version=8.1.20",
-                    "sha256": "7a7c0613f35763165dbba9a5fdc199891b011c8505d6eb3c515ac3ba451bc4f0",
-                    "size": 77961588
+                    "url": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=arm64&version=8.2.0",
+                    "sha256": "78dba5ceef79fcfb606f3fcb1b3d5e1c9ea66980981526b6cb6a7002f144c591",
+                    "size": 77992752
                 },
                 {
                     "type": "script",
