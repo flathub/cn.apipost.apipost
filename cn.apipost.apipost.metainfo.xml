@@ -86,8 +86,11 @@
   </screenshots>
   <launchable type="desktop-id">cn.apipost.apipost.desktop</launchable>
   <releases>
-    <release version="8.2.0" date="2025-08-06">
+    <release version="8.2.1" date="2025-08-18">
       <description></description>
+    </release>
+    <release version="8.2.0" date="2025-08-06">
+      <description/>
     </release>
     <release version="8.1.20" date="2025-08-01">
       <description/>
