@@ -120,9 +120,9 @@
                         "version-pattern": "client=LinuxXz&arch=x64&version=([0-9.]+)",
                         "url-template": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=x64&version=${version}"
                     },
-                    "url": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=x64&version=8.2.5",
-                    "sha256": "a5ebf3e170f9f317ee76968f68006ae1de3bc68c8832c3fb483caad71320b444",
-                    "size": 81233872
+                    "url": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=x64&version=8.2.6",
+                    "sha256": "21053acef5b7944712e47bb0bd2831e047e23a4b3de55e89861d6ce1694db596",
+                    "size": 81239444
                 },
                 {
                     "type": "extra-data",
@@ -136,9 +136,9 @@
                         "version-pattern": "client=LinuxXz&arch=arm64&version=([0-9.]+)",
                         "url-template": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=arm64&version=${version}"
                     },
-                    "url": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=arm64&version=8.2.5",
-                    "sha256": "b59c976637f55899e74af1c363ae883a7f7ed648504b9ba341cf976a04f2f5c0",
-                    "size": 78088980
+                    "url": "https://www.apipost.cn/dl.php?client=LinuxXz&arch=arm64&version=8.2.6",
+                    "sha256": "4425d595b99837b93a09b5936e39bcfd286fdc7a55903744c57d00030cd05d49",
+                    "size": 78085336
                 },
                 {
                     "type": "script",
