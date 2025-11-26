@@ -187,4 +187,9 @@
       </description>
     </release>
   </releases>
+  <keywords>
+    <keyword>postman</keyword>
+    <keyword>swagger</keyword>
+    <keyword>api testing</keyword>
+  </keywords>
 </component>
