@@ -8,10 +8,6 @@
   <content_rating type="oars-1.0"/>
   <developer_name>apipost developers</developer_name>
   <description>
-    <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by apipost.cn.**</p>
-    <p xml:lang="zh-Hans">
-      <em>提示:</em> 本构建未经 apipost.cn 验证, 或得到 apipost.cn 的支持。这个一个个人构建版本。
-    </p>
     <p>
       tips: Due to flatpak sandbox limitations, please do not check for upgrades within the
       application. This software localization only supports Chinese language.
